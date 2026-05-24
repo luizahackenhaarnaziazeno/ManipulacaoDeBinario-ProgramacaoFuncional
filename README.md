@@ -1,10 +1,10 @@
 <div align="center">
 
 # Programação Funcional - Manipulação de Binários
-## Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 O objetivo deste trabalho é consolidar o conhecimento sobre conceitos e construção de funções recursivas na linguagem Haskell. O projeto consiste na implementação de diversas funções matemáticas para a manipulação de "valores binários". Em toda a aplicação, os números binários são armazenados e processados como listas de inteiros, contendo apenas zeros e uns (tipo `[Int]`).
 
-## Funções Implementadas
+## 📂 Funções Implementadas
 
 O projeto conta com quatro funções principais:
 
@@ -19,7 +19,7 @@ O projeto conta com quatro funções principais:
 
 ---
 
-## Avaliação e Feedback desse Projeto
+## 📊 Avaliação e Feedback desse Projeto
 O projeto foi avaliado nos critérios de funcionamento, corretude matemática e aplicação de recursividade. Abaixo está o registro detalhado dos acertos e dos pontos de melhoria apontados na correção:
 
 ### Função 1 (`bin2dec`): 2,5 / 2,5 (100%)
@@ -44,7 +44,7 @@ O projeto foi avaliado nos critérios de funcionamento, corretude matemática e 
 * **Feedback:** O enunciado exige a definição de uma forma adequada para representar o resultado caso o número estoure a capacidade da tupla. A validação de limite atual falhou exatamente nos limites da fronteira de 16 bits com sinal.
     * *Testes que falharam:* A função não acusou corretamente o erro nas chamadas de `32768.0` (um acima do limite positivo) e `-32768.0` (um abaixo do menor limite negativo).
 
-# Autoras:
+# 👥 Autoras:
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/142232479?v=4" width=115><br><sub>Luiza Hackenhaar Naziazeno</sub>](https://github.com/luizahackenhaarnaziazeno) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/142234602?v=4" width=115><br><sub>Gabrielle Guarani Da Silva</sub>](https://github.com/gguarani) |
 | :---: | :---: |
